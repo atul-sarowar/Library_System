@@ -29,7 +29,7 @@ public class UserManager {
                         : new Teacher(id, name, extra);
                 tempList.add(u);
             }
-            userList.addAll(tempList);  // Add to main list
+            userList.addAll(tempList);  
         } catch (Exception e) {
             System.err.println("Error loading " + type + "s: " + e.getMessage());
         }
